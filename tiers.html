@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Tiers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tiers.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">
+            <img src="./src/bnb.png" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="tiers.html">Tiers</a></li>
+                <li class="nav-item"><a class="nav-link" href="recipe.html">Recipes</a></li>
+            </ul>
+        </div>
+        <a href="recipe.html" class="btn btn-primary py-2 px-4">Book</a>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Service Tiers</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <div class="tier-card">
+                    <h3>Pop's on Lock</h3>
+                    <p>This is our soda and soft drink package! If you're in need of crossing one thing off your to-do list, we've got you covered!</p>
+                    <button class="btn-add" onclick="addToCart('Pop\'s on Lock')">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="tier-card">
+                    <h3>Cocktails on You</h3>
+                    <p>Batched cocktails delivered to your door with everything you need to self-serve, minus the alcohol!</p>
+                    <button class="btn-add">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="tier-card">
+                    <h3>Drinks on Me</h3>
+                    <p>Need a bartender? We’ll create a signature cocktail that matches your event vibe and provide all mixers needed for a successful bar. Just bring the alcohol.</p>
+                    <button class="btn-add">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="tier-card">
+                    <h3>Cocktails with Friends!</h3>
+                    <p>Pick 3 cocktails from our list that you'll learn, taste, & forever have in your repertoire!</p>
+                    <button class="btn-add">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
